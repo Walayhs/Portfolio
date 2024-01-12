@@ -18,7 +18,9 @@ body{
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background: transparent;
+    
+    background:rgba(0, 0, 0, 0.682) ;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,9 +65,14 @@ body{
     width: 100%;
     
 }
-h1,h3,li{
+h1,h3,li,p{
+    right: 100px;
+    text-align: justify;
     color: #fff;
 }
-p{
-    color: #fff;
+
+div{
+    text-align: center;
+    margin-left: 50px;
 }
+
